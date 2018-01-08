@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+	<script>
+		function keyDown(x){
+			x.style.color = "red";
+			x.style.backgroundColor="blue";
+
+
+		}
+		function keyUp(x){
+			x.style.color = "blue";
+			x.style.backgroundColor="red";
+		}
+
+		function keyPress(x){
+			x.style.color = "blue";
+			x.style.backgroundColor="yellow";
+		}
+	
+	</script>
+</head>
+
+<body>
+	<input type="text" onkeydown="keyDown(this)" onkeyup="keyUp(this)" onkeypress="keyPress(this)"/>
+	
+</body>
+
+</html>
