@@ -1,0 +1,187 @@
+body
+{
+	background: #F4F4F4;
+	width: 850px;
+    margin: 0 auto;
+}
+
+}
+
+}
+.container
+{
+	background: #fff;
+/*	width: 780px;
+    margin: 0 auto;*/
+}
+.bigNews, .forNews
+{
+	padding-left: 10px;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+
+}
+.bigNews img
+{
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding-right: 10px;
+    padding-bottom: 6px;
+ 
+ 
+}
+
+.bigNews p
+{
+ font-size: 90%;
+}
+.forNews
+{
+	height: 420px;
+}
+.block, .block2
+{
+	width: 48%;
+	height:200px;
+	float: left;
+	margin-left: -8px;
+	margin-top: 4px;
+/*	border: 1px solid gray;*/
+	padding-left: 7px;
+}
+.block
+{
+    margin-right: 18px;
+    margin-bottom: 7px;
+}
+.resent
+{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	position: relative;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.block p,.block2 p
+{
+	font-size: 65%;
+}
+.block img, .block2 img
+{
+	width: 100px;
+	height: 50px;
+	float: left; 
+}
+.menu
+{
+	background: #3b7687;
+	padding: 6px 0 6px 40px;
+}
+.menu a
+{
+	color:#c5d6db;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: "Arial Narrow", "Myriad Pro";
+
+}
+.menu a:hover
+{
+	color: #ecf2f3;
+}
+.left
+{
+	width: 70%;
+	float: left;
+
+
+}
+.right
+{
+	float: right;
+	width: 29%;
+}
+footer
+{
+	padding: 6px 40px 6px 40px;
+	background: #d6d6d6;
+	font-family: "Lucida Sans Unicode";
+	color: #444444;
+	font-size: 11px;
+	text-decoration: right;
+
+}
+footer a
+{
+	text-decoration: none;
+	color: #262626;
+}
+button
+{
+	border-radius: 5px;
+	float: right;
+    width: 82px;
+    height: 20px;
+    margin-left: 5px;
+}
+#search
+{
+	float: right;
+    margin-right: 10px;
+}
+.right .subscribe, .right .popPosts, .right .tags
+{
+ border: 1px solid gray;
+}
+.title
+{
+	background:gray;
+}
+#rss_lit
+{
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+#rss_big
+{
+	width: 45px;
+	height: 45px;
+	float: right;
+}	
+
+.popPosts, .tags
+{
+	margin-bottom: 15px;
+	padding-left: 10px;
+}
+
+.list, .list2
+{
+	width: 47.7%;
+	text-decoration: none;
+	float: right;
+	border: 1px solid gray;
+	margin-bottom: 5px;
+}
+.list
+{
+	margin-left: 7px;
+}
+ul{
+	list-style: none;
+	padding-left: 0px;
+	text-decoration-style: none;
+}
+ul a
+{
+	font-size: 75%;
+}
+#foot
+{
+
+	height: 20px;
+	display: inline-block;
+	width: 100%;
+}
