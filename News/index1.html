@@ -7,6 +7,7 @@
 	<script src="js/scripts.js" =""></script>
 </head>
 <body>
+
 	<div class="upside">
 		<nav class="menu">
 			<a href="index.html">News<a> &nbsp; &nbsp; &nbsp;
@@ -14,21 +15,21 @@
 			<a href="demo.html">Demo Page</a> &nbsp; &nbsp; &nbsp;
 			<a href="contact.html">Contact Page</a>
 			<form id="search">
-  				<input type="search" name="smthng" placeholder="Пошук по сайту">
-   				<input type="submit" value="Пошук">
+  				<input id="searchInput" type="search" name="smthng" placeholder="Пошук по сайту">
+   				<button></button>
  			</form>
 		</nav>
 	</div>
 	<div class="container">
-		<header class="header">
-			
-			<h2>NewsTheme</h2>
+		<span></span>
+		<header class="header">			
+			<p>NewsTheme</p>
 		</header>
 		<div class="news">
 			<div class="left">
 				<div class="bigNews">
 					<h5>RESENT  NEWS</h5>
-					<p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+					<h3><strong>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</strong></h3>
 					
 					<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi.<img src="img/1.png"> Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
 
@@ -37,7 +38,7 @@
 				<div class="forNews">
 					<div class="block">
 						<h6 class="resent">RESENT  NEWS</h6>
-						<p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+						<h3>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</h3>
 					
 						<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi.<img src="img/1.png"> Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
 						<button>Read More</button>
@@ -45,7 +46,7 @@
 					</div>
 					<div class="block2">
 						<h6 class="resent">RESENT  NEWS</h6>
-						<p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+						<h3>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</h3>
 					
 						<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi.<img src="img/1.png"> Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
 						<button>Read More</button>
@@ -53,7 +54,7 @@
 					</div>
 					<div class="block">
 						<h6 class="resent">RESENT  NEWS</h6>
-						<p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+						<h3>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</h3>
 					
 						<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi.<img src="img/1.png"> Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
 						<button>Read More</button>
@@ -61,7 +62,7 @@
 					</div>
 					<div class="block2">
 						<h6 class="resent">RESENT  NEWS</h6>
-						<p>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</p>
+						<h3>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</h3>
 					
 						<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi.<img src="img/1.png"> Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
 						<button>Read More</button>
@@ -74,8 +75,8 @@
 					<div class="title">
 						<h4>Subscribe Here</h4>
 					</div>
-					<p><img src="img/rss_512.png" id="rss_lit">Subscribe via RSS Feed or<img src="img/rss_512.png" id="rss_big"></p>
-					<input type="email" name="Email" placeholder="Enter Email Here..">
+					<p><img src="img/rss_512.png" id="rss_lit">Subscribe via RSS Feed or<img src="img/rss_512.png" id="rss_big">
+					<input type="email" name="Email" placeholder="Enter Email Here.."></p>
 				</div>				
 				<div class="popPosts">
 					<h4>Popular Posts</h4>
@@ -84,59 +85,64 @@
       					<li><a href="#">Top 100 Internet Marketing Tips</a></li>
       					<li><a href="#">Tutorial: How to add Videos in your Post</a></li>
       					<li><a href="#">Sample Post Unordered List</a></li>
-      					<li><a href="#">Sample Post Blockquote</a></li>
+      					<li id="last"><a href="#">Sample Post Blockquote</a></li>
       				</ul>
 				</div>
-				<div class="tags">
+				<div class="tag">						
 					<h4>TAGS</h4>
-					<div></div>
 				</div>
 					<div class="list">
+						<h4>Categories</h4>
 						<ul id="categories">
       					<li><a href="#">Entertainment</a></li>
       					<li><a href="#">Fashion</a></li>
       					<li><a href="#">Lifestyle</a></li>
       					<li><a href="#">Parenting</a></li>
       					<li><a href="#">Resourses</a></li>
-      					<li><a href="#">Videos</a></li>
+      					<li id="last"><a href="#">Videos</a></li>
       					</ul>
 					</div>
 					<div class="list2">
+						<h4>Archives</h4>
 						<ul id="archive">
       					<li><a href="#">August 2008</a></li>
       					<li><a href="#">July 2008</a></li>
       					<li><a href="#">June 2008</a></li>
       					<li><a href="#">May 2008</a></li>
       					<li><a href="#">April 2008</a></li>
-      					<li><a href="#">March 2008</a></li>
+      					<li id="last"><a href="#">March 2008</a></li>
       					</ul>
 					</div>
 					<div class="list">
+						<h4>Pages</h4>
 						<ul id="pages">
       					<li><a href="#">Home</a></li>
       					<li><a href="#">About</a></li>
       					<li><a href="#">Archives</a></li>
       					<li><a href="#">Links</a></li>
       					<li><a href="#">Contact</a></li>
-      					<li><a href="#">Sitemap</a></li>
+      					<li id="last"><a href="#">Sitemap</a></li>
       					</ul>
 					</div>
 					<div class="list2">
+						<h4>Blogroll</h4>
 						<ul id="blogroll">
       					<li><a href="#">Carlos</a></li>
       					<li><a href="#">Digital Point Forum</a></li>
       					<li><a href="#">Erci`s Photo Galery</a></li>
       					<li><a href="#">Fashion Trends</a></li>
       					<li><a href="#">Google Scoreboard</a></li>
-      					<li><a href="#">Marketing Forum</a></li>
+      					<li id="last"><a href="#">Marketing Forum</a></li>
       					</ul>
 					</div>
 					<div class="list">
+						<h4>META</h4>
 						<ul id="META">
-      						<li><a href="#">Login</a></li>
+      						<li id="last"><a href="#">Login</a></li>
       					</ul>
-					</div>
-				</div>
+      				</div>
+				
+
 		</div>
 	</div>
 	<div id="foot">	
