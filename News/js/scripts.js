@@ -11,6 +11,7 @@ $(function() {
     metaItemsPosts();
     blogrollItemsPosts();
     newsBlockOne();
+    newsBlockResent();
   }
 
   function renderNavMenu() {
@@ -65,7 +66,7 @@ var blog = $('#blogroll');
 
 function newsBlockOne() {
 	var newsvar = $('#forNews');
-	for(var i = 0; i<blockOneData.length; i++)
+	for(var i = 0; i<blockOneData.length-1; i++)
 	{
 		// news.append('<h6 class="resent">' + blockOneData[i].date + '</h6>' + '<h3>' + blockOneData[i].headerText + '</h3>' + '<img src="'+ blockOneData[i].image + '>' + '<p>' + blockOneData[i].text + '</p>')
 		 newsvar.append(
@@ -80,6 +81,17 @@ function newsBlockOne() {
 	}
 
 }
+
+function newsBlockResent() {
+	var newsRes = $('#bigNews');
+		 newsRes.append(
+	        
+	        	'<h6 class="resent">' + blockOneData[4].date + '</h6>' +
+	        	'<h3>' + blockOneData[4].headerText + '</h3>' + 
+	        	'<p>' + blockOneData[4].text1 + '</p>' + 
+	        	'<img src="' + blockOneData[4].image +'">' +
+	        	'<p>' + blockOneData[4].text + '</p>'
+	        	);}
 
  onInit();
 });
