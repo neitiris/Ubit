@@ -4,16 +4,14 @@
 	<meta charset="utf-8">
 	<title>News</title>
 	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/dummy-data.js"></script>
 	<script src="js/scripts.js" =""></script>
 </head>
 <body>
 
 	<div class="upside">
-		<nav class="menu">
-			<a href="index.html">News<a> &nbsp; &nbsp; &nbsp;
-			<a href="about.html">About Us</a> &nbsp; &nbsp; &nbsp;
-			<a href="demo.html">Demo Page</a> &nbsp; &nbsp; &nbsp;
-			<a href="contact.html">Contact Page</a>
+		<nav class="menu" id="navMenu">
 			<form id="search">
   				<button></button>
    				<input id="searchInput" type="search" name="smthng" placeholder="Пошук по сайту">
@@ -36,38 +34,22 @@
 					<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi. Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
 				</div>
 				<div class="forNews">
-					<div class="block">
-						<h6 class="resent">RESENT  NEWS</h6>
-						<h3>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</h3>
-					
-						<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi.<img src="img/1.png"> Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+					<!-- <div class="block" id="first">
 						<button>Read More</button>
 						<button>Comments</button>
 					</div>
-					<div class="block2">
-						<h6 class="resent">RESENT  NEWS</h6>
-						<h3>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</h3>
-					
-						<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi.<img src="img/1.png"> Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+					<div class="block2" id="second">
 						<button>Read More</button>
 						<button>Comments</button>
 					</div>
-					<div class="block">
-						<h6 class="resent">RESENT  NEWS</h6>
-						<h3>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</h3>
-					
-						<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi.<img src="img/1.png"> Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+					<div class="block" id="third">
 						<button>Read More</button>
 						<button>Comments</button>
 					</div>
-					<div class="block2">
-						<h6 class="resent">RESENT  NEWS</h6>
-						<h3>Hello, I’m Lorem ipsum dolor sit amet, conseur adipiscing elit puella magna est.</h3>
-					
-						<p>Etiam sem eros, interdum at rutrum et, hendrerit id nisi.<img src="img/1.png"> Etiam iaculis lorem eget arcu gravida lacinia. Fringilla justo ullamcorper ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Raesent sem elit, volutpat id vulputate faucibus, fringilla vel massa. Proin nec mi a mi tincidunt elementum sed vel ipsum.</p>
+					<div class="block2" id="fourth">
 						<button>Read More</button>
 						<button>Comments</button>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="right">
@@ -81,11 +63,6 @@
 				<div class="popPosts">
 					<h4>Popular Posts</h4>
 					<ul id="pop">
-      					<li id="first"><a href="#">Make Money Online Creating websites</a></li>
-      					<li><a href="#">Top 100 Internet Marketing Tips</a></li>
-      					<li><a href="#">Tutorial: How to add Videos in your Post</a></li>
-      					<li><a href="#">Sample Post Unordered List</a></li>
-      					<li id="last"><a href="#">Sample Post Blockquote</a></li>
       				</ul>
 				</div>
 				<div class="tag">						
@@ -94,51 +71,26 @@
 					<div class="list">
 						<h4>Categories</h4>
 						<ul id="categories">
-      					<li id="first"><a href="#">Entertainment</a></li>
-      					<li><a href="#">Fashion</a></li>
-      					<li><a href="#">Lifestyle</a></li>
-      					<li><a href="#">Parenting</a></li>
-      					<li><a href="#">Resourses</a></li>
-      					<li id="last"><a href="#">Videos</a></li>
       					</ul>
 					</div>
 					<div class="list2">
 						<h4>Archives</h4>
 						<ul id="archive">
-      					<li id="first"><a href="#">August 2008</a></li>
-      					<li><a href="#">July 2008</a></li>
-      					<li><a href="#">June 2008</a></li>
-      					<li><a href="#">May 2008</a></li>
-      					<li><a href="#">April 2008</a></li>
-      					<li id="last"><a href="#">March 2008</a></li>
       					</ul>
 					</div>
 					<div class="list">
 						<h4>Pages</h4>
 						<ul id="pages">
-      					<li id="first"><a href="#">Home</a></li>
-      					<li><a href="#">About</a></li>
-      					<li><a href="#">Archives</a></li>
-      					<li><a href="#">Links</a></li>
-      					<li><a href="#">Contact</a></li>
-      					<li id="last"><a href="#">Sitemap</a></li>
       					</ul>
 					</div>
 					<div class="list2">
 						<h4>Blogroll</h4>
 						<ul id="blogroll">
-      					<li id="first"><a href="#">Carlos</a></li>
-      					<li><a href="#">Digital Point Forum</a></li>
-      					<li><a href="#">Eric`s Photo Galery</a></li>
-      					<li><a href="#">Fashion Trends</a></li>
-      					<li><a href="#">Google Scoreboard</a></li>
-      					<li id="last"><a href="#">Marketing Forum</a></li>
       					</ul>
 					</div>
 					<div class="list">
 						<h4>META</h4>
 						<ul id="META">
-      						<li id="last"><a href="#">Login</a></li>
       					</ul>
       				</div>
 				

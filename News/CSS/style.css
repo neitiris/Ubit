@@ -130,7 +130,7 @@ h5, h3
 	text-decoration: none;
 	font-size: 18px;
 	font-family: "Arial Narrow", "Myriad Pro";
-
+	margin-right: 20px;
 }
 .menu a:hover
 {
@@ -269,9 +269,11 @@ button
 
 }
 ul{
+	margin-top: -17px;
 	list-style: none;
 	padding-left: 5px;
 	text-decoration-style: none;
+	margin-bottom: 0;
 
 }
 ul a
@@ -286,7 +288,7 @@ ul li
 	border-bottom: 1px dotted gray;
 	display: block;
 	padding-left: 10px;
-	padding-bottom: 7px;
+	padding-bottom: 3px;
 }
 .right h4
 {
