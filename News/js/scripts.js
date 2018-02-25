@@ -72,7 +72,7 @@ function newsBlockOne() {
 	        '<div class="block2" id="otherNews' + blockOneData[i].id + '">' +
 	        	'<h6 class="resent">' + blockOneData[i].date + '</h6>' +
 	        	'<h3>' + blockOneData[i].headerText + '</h3>' + 
-	        	blockOneData[i].image +
+	        	'<img src="' + blockOneData[i].image +'">' +
 	        	'<p>' + blockOneData[i].text + '</p>' +
 	        	'<button>Read More</button>' +
 	        	'<button>Comments</button>' +
